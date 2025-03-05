@@ -11,7 +11,8 @@ app.MapGet("/", () => "Hello World!");
 app.MapGet("/getAll", () => Results.Ok(new List<string>()
 {
     "Example 1",
-    "Example 2"
+    "Example 2",
+     "Example 3"
 }));
 app.MapGet("/create", (string work) =>
 {
